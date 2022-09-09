@@ -17,7 +17,7 @@ int main(void)
 		{
 			putchar('0' + n);
 		}
-		else										
+		else
 		{
 			putchar(87 + n);
 		}
