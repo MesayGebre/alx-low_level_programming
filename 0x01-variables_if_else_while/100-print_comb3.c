@@ -11,7 +11,6 @@ int main(void)
 
 	int n;
 	int i;
-	
 	for (n = 0 ; n < 9 ; n++)
 	{
 		i = n + 1;
