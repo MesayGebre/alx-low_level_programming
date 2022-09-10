@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	
+
 	int tho;
 	int hun;
 	int ten;
@@ -33,9 +33,9 @@ int main(void)
 						putchar(32);
 					}
 					bas++;
-			   }
-		  }
-        }
+			     }
+		   }
+	 }
 }
 	putchar('\n');
 	return (0);
