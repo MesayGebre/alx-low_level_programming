@@ -8,12 +8,11 @@
 
 int main(void)
 {
-
 	int tho;
 	int hun;
 	int ten;
 	int bas;
-	
+
 for ( tho = 0 ; tho < 10 ; tho++)
 {
 
@@ -35,10 +34,10 @@ for ( tho = 0 ; tho < 10 ; tho++)
 						putchar(32);
 					}
 					bas++;
-				}
 			}
+		}
 	}
 }
-	putchar('\n');
+        putchar('\n');
 	return (0);
 }
