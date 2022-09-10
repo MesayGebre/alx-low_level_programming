@@ -8,6 +8,7 @@
 
 int main(void)
 {
+	
 	int tho;
 	int hun;
 	int ten;
@@ -30,7 +31,7 @@ int main(void)
 					{
 						putchar(',');
 						putchar(32);
-					{
+					}
 					bas++;
 			   }
 		  }
