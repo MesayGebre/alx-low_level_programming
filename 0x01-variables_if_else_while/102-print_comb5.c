@@ -8,6 +8,7 @@
 
 int main(void)
 {
+
 	int tho;
 	int hun;
 	int ten;
@@ -38,6 +39,6 @@ for ( tho = 0 ; tho < 10 ; tho++)
 		}
 	}
 }
-        putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }
