@@ -1,5 +1,5 @@
 #include "main.h"
-#includ "stadio.h"
+#include "stadio.h"
 /**
  * _isupper - a function that checks for uppercase character
  * @c: input
