@@ -15,10 +15,11 @@ char *move(char *s2);
  * @s1: pointer to string params
  * @s2: pointer to string params
  * Return: 0
+ *
  */
+
 int wildcmp(char *s1, char *s2)
 {
-
 	/**
 	 * this is going to be a sum of return values
 	 */
@@ -48,7 +49,6 @@ int wildcmp(char *s1, char *s2)
 			}
 			return (*s2 == '\0');
 		}
-
 	/**
 	 * if we reached the end of both strings,
 	 * return 0
@@ -93,7 +93,6 @@ int wildcmp(char *s1, char *s2)
  */
 int bandersnatch(char *s1, char *s2)
 {
-
 	/**
 	 * if we reached the end of s1, return 0
 	 * if chars are equal, return the return value of wildcmp()
@@ -115,7 +114,6 @@ int bandersnatch(char *s1, char *s2)
  */
 char *move(char *s2)
 {
-
 	/**
 	 * if the current char is a *
 	 * increment s2 by 1
