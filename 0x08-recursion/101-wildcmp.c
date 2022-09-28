@@ -15,7 +15,6 @@ char *move(char *s2);
  * @s1: pointer to string params
  * @s2: pointer to string params
  * Return: 0
- *
  */
 
 int wildcmp(char *s1, char *s2)
@@ -28,7 +27,7 @@ int wildcmp(char *s1, char *s2)
 	/**
 	 * if we reach the end of s1 and the char in s2 is a
 	 * and if the next chars of s2 are *, return 1
-	 * */
+	 */
 	if (*s1 == '\0' && *s2 == '*' && !*move(s2))
 		return (1);
 
