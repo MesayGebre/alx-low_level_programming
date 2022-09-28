@@ -8,7 +8,6 @@ char *move(char *s2);
  * checking for wildcards expansion
  * @s1: first string to compare
  * @s2: second string to compare
- *
  * Return: 1 if the strings can be considered identical
  * otherwise 0
  * wildcmp - Compare strings
@@ -86,7 +85,6 @@ int wildcmp(char *s1, char *s2)
  * characters are equal
  * @s1: first string
  * @s2: second string
- *
  * Return: return value of wildcmp() or of itself
  */
 int bandersnatch(char *s1, char *s2)
@@ -106,9 +104,7 @@ int bandersnatch(char *s1, char *s2)
 /**
  * *move - moves the current char past the *
  * @s2: string to iterate over
- *
  * Return: the address of the character after the *
- *
  */
 char *move(char *s2)
 {
