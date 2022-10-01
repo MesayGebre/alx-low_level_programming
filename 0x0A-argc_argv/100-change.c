@@ -10,8 +10,8 @@
 
 int main(int argc, char **argv)
 {
-
 	int total, change;
+
 	if (argc < 2)
 	{
 		printf("Error\n");
